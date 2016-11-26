@@ -1,8 +1,8 @@
 class ExtraCmakeModules < Formula
-  desc "Extra CMake Modules"
-  homepage "https://cgit.kde.org/extra-cmake-modules.git/"
-  url "http://download.kde.org/stable/frameworks/5.28/extra-cmake-modules-5.28.0.tar.xz"
-  sha256 "acb4294a6456da6d983bb3a314756fcc640f48e57fe42fc5caa9f4b453df46ba"
+  desc "Extra modules and scripts for CMake"
+  homepage "https://github.com/KDE/extra-cmake-modules"
+  url "https://github.com/KDE/extra-cmake-modules/archive/v5.28.0.tar.gz"
+  sha256 "e70f478785be6ab338f4ae2a4c2235ad9f5cb448e5b38aeffde983f10baae431"
 
   depends_on "cmake" => :run
   depends_on "qt5" => :optional
