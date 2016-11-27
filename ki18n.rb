@@ -7,6 +7,8 @@ class Ki18n < Formula
   depends_on "cmake" => :build
   depends_on "extra-cmake-modules" => :build
   depends_on "qt5"
+  depends_on "intltool"
+  depends_on "gettext"
 
   def install
     system "cmake", ".", *std_cmake_args
