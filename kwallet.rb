@@ -10,6 +10,8 @@ class Kwallet < Formula
   depends_on "kconfig"
   depends_on "kwindowsystem"
   depends_on "ki18n"
+  depends_on "knotifications"
+  depends_on "libgcrypt"
   depends_on "kdoctools" => :optional
 
   def install
