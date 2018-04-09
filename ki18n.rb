@@ -1,8 +1,8 @@
 class Ki18n < Formula
   desc "KDE Gettext-based UI text internationalization"
   homepage "https://github.com/KDE/ki18n"
-  url "https://github.com/KDE/ki18n/archive/v5.28.0.tar.gz"
-  sha256 "0068cd4ec89e2c0febed8c44793b95a928edd3a3447b0a422b1e6b1177b073e5"
+  url "https://github.com/KDE/ki18n/archive/v5.36.0.tar.gz"
+  sha256 "30078616b3ac6576f2d1f1b410bf5e2de6a2285323313dec2e84e17eae0dfb8c"
 
   depends_on "cmake" => :build
   depends_on "extra-cmake-modules" => :build
